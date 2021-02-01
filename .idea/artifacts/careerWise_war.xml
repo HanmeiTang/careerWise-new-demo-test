@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="careerWise:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>careerWise</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="careerWise-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="careerWise:war exploded" />
+    </root>
+  </artifact>
+</component>
