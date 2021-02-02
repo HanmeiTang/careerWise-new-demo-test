@@ -5,7 +5,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "RecommendationServlet", urlPatterns = {"/recommendation"})
+@WebServlet(name = "RecommendationServlet", value = {"/recommendation"})
 public class RecommendationServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
