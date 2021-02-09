@@ -56,11 +56,12 @@ Status API Training Shop Blog About
 
 # User-specific stuff:
 .idea/workspace.xml
+.idea/artifacts
 .idea/tasks.xml
 .idea/dictionaries
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
-
+.idea/artifacts/careerWise_war_exploded.xml
 # Sensitive or high-churn files:
 .idea/dataSources.ids
 .idea/dataSources.xml
